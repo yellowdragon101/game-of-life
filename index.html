@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game of Life</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="app.js"></script>
+</head>
+<body>
+	<h2>Conway's Game of Life</h2>
+	<table id="table"></table>
+	<p id="output"></p>
+	<p id="start" class="toHide">
+		<button onclick="startGame()">Start Game</button>
+		<button id="clear" onclick="clearBoard()">Clear Board</button>
+	</p>
+	<p id="end" class="toHide hid">
+		<button onclick="endGame()">End Game</button>
+	</p>
+	<div class="border">
+		<p>Click on a dead (white) cell to make it alive (black).</p>
+		<p>Click on an alive cell to make it dead.</p>
+		<p>Click <A target="_blank" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules">here for the rules.</p>
+	</div>
+</body>
+</html>

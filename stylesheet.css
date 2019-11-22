@@ -1,0 +1,31 @@
+table,td,tr {
+	border: solid black;
+	border-color: black;
+	border-spacing: 0px;
+	border-width: 1px;
+	table-layout: fixed;
+	width: 25%;
+	text-align: center;
+}
+
+tr {
+	height: 2.5vw;
+}
+
+.hid {
+	display: none;
+}
+
+.clicked {
+	background-color: black;
+}
+
+.border {
+
+	border: solid black;
+	border-color: black;
+	border-spacing: 0px;
+	border-width: 1px;
+	text-align: center;
+	margin-right: 65%;
+}
